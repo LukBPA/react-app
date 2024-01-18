@@ -1,0 +1,50 @@
+w-5 {
+  width: 5% !important;
+}
+.nav-bar {
+  position: sticky;
+  height: 88vh;
+}
+
+.sidebar {
+  width: 16.6% !important;
+  transition: width 0.5s ease;
+
+  &.closed {
+    width: 3%;
+  }
+}
+
+.btn {
+  width: 100%;
+  margin: auto;
+  transition: width 0.5s ease;
+  &.closed {
+    width: 100%;
+  }
+}
+
+.accordion-button {
+  outline: none !important;
+  border: none !important;
+  transition: background-color 0.5s;
+}
+.accordion-button::after {
+  // set the color of the arrow from black to white
+  filter: brightness(0) invert(1);
+}
+.accordion-button:hover {
+  background-color: #84878b !important;
+}
+
+.accordion-button:focus {
+  border-color: white !important;
+}
+
+.menu-button {
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.menu-button:hover {
+  background-color: #84878b !important;
+}

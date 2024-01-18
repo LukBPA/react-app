@@ -1,0 +1,14 @@
+.card {
+  justify-content: center;
+  width: 30%;
+  min-height: 50%;
+  background-color: black !important;
+  color: white !important;
+  border-radius: 1rem !important;
+  .heading {
+    text-align: center;
+  }
+  .form-wrapper {
+    padding: 2rem;
+  }
+}
