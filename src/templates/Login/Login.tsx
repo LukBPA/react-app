@@ -25,7 +25,7 @@ function Login() {
     if (account && account.password === password) {
       localStorage.setItem("authenticated", JSON.stringify(true));
       login();
-      navigate("/home");
+      navigate("/employees");
     }
   };
 
